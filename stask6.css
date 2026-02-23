@@ -1,0 +1,84 @@
+
+.second{
+    display: inline-block;
+}
+.allsame{
+    height: 200px;
+    width: 200px;
+    color:aliceblue;
+    margin: 20px;
+    
+}
+body{
+    height:200vh;
+    width: 100vw;
+    display:inline-block;
+}
+.one, .four{
+    background-color: red;
+}
+.two,.five{
+    background-color:rgb(0, 255, 0);
+}
+.three,.six{
+    background-color:blue;
+}
+/* .third1{
+    display:inline-block;
+}
+.third2{
+    display:inline-block;
+} */
+.shapes{
+    height: 100px;
+    width: 130px;
+    background-color:#81007f;
+    border:5px solid #ffa402;
+    display: inline-block;
+    margin: 20px;
+}
+#shape1{
+    border-radius: 0%;
+}
+#shape2{
+    border-radius: 30%;
+}
+#shape3{
+    border-radius: 50%;
+}
+#shape4{
+    border-radius: 10% 0%;
+}
+#shape5{
+    border-radius: 100% 0% 0% 0%;
+}
+#shape6{
+    border-radius: 20%;
+}
+#shape7{
+    border-radius: 100% 0% 100% 0%;
+}
+#shape8{
+    border-radius: 100% 100% 0% 0%;
+}
+.square{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(6, 54, 1);
+    position:relative;
+    top: 200px;
+    left: 200px;
+    margin-bottom: 500px;
+}
+h3{
+    font-size: 30px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(177, 150, 92);
+    position: relative;
+    top:150px;
+    left: 250px;
+}
