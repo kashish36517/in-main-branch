@@ -59,7 +59,7 @@ body{
     border-radius: 100% 0% 100% 0%;
 }
 #shape8{
-    border-radius: 100% 100% 0% 0%;
+    border-radius: 100% 100%;
 }
 .square{
     height: 300px;
@@ -72,6 +72,7 @@ body{
 }
 h3{
     font-size: 30px;
+    text-shadow: 10px 1px 2px grey;
 }
 .circle{
     height: 200px;
