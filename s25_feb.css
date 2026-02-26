@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 300vh;
+}
+img {
+  height: 900px;
+  width: 600px;
+}
+.outerbox {
+  background-color: rgba(91, 195, 233, 0.546);
+  height: 735px;
+  width: 1520px;
+  display:flex;
+  gap: 10px;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.square {
+  background-color: rgb(3, 65, 3);
+  height: 70px;
+  width: 70px;
+}
+@media (max-width: 600px) {
+  img {
+    height: 300px;
+    width: 200px;
+  }
+}
